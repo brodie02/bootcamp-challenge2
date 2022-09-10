@@ -1,7 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1 {
@@ -10,6 +10,16 @@ h1 {
 
 h2 {
     font-size: 250%;
+}
+
+p {
+    font-size: 300%;
+}
+
+img {
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
 }
 
 header {
@@ -23,6 +33,7 @@ header {
 header h1 {
     background-color: aqua;
     padding: 20px;
+    padding-left: 100px;
     color: rgb(44, 44, 44);
 }
 
@@ -38,4 +49,23 @@ header ul {
 header li {
     border-bottom: 5px solid aqua;
     padding: 5px 20px;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 75px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(231,231,231,1) 40%, rgba(135,135,135,1) 100%);
+}
+
+.image-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-text p {
+    padding: 3px;
 }
