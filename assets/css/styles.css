@@ -1,19 +1,28 @@
+:root {
+    --main: rgb(44, 44, 44);
+    --light: aqua;
+}
+
 * {
     padding: 0px;
     margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
 
+h1, h2, p {
+    color: var(--main);
+}
+
 h1 {
-    font-size: 300%;
+    font-size: 350%;
 }
 
 h2 {
-    font-size: 250%;
+    font-size: 300%;
 }
 
 p {
-    font-size: 300%;
+    font-size: 175%;
 }
 
 img {
@@ -25,13 +34,13 @@ img {
 header {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(44, 44, 44);
+    background-color: var(--main);
     padding: 20px;
     padding-left: 0px;
 }
 
 header h1 {
-    background-color: aqua;
+    background-color: var(--light);
     padding: 20px;
     padding-left: 100px;
     color: rgb(44, 44, 44);
@@ -47,7 +56,7 @@ header ul {
 }
 
 header li {
-    border-bottom: 5px solid aqua;
+    border-bottom: 5px solid var(--light);
     padding: 5px 20px;
 }
 
@@ -66,6 +75,22 @@ header li {
     justify-content: center;
 }
 
-.image-text p {
+.image-text h2 {
     padding: 3px;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me {
+    display: flex;
+    padding: 25px 250px 25px 250px;
+    gap: 50px
+}
+
+.about-me h2 {
+    border-right: 5px solid var(--main);
+    padding-right: 20px;
 }
