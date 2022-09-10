@@ -18,6 +18,10 @@ h1 {
 }
 
 h2 {
+    font-size: 325%;
+}
+
+h3 {
     font-size: 300%;
 }
 
@@ -86,11 +90,18 @@ header li {
 
 .about-me {
     display: flex;
-    padding: 25px 250px 25px 250px;
+    padding: 25px 200px 25px 200px;
     gap: 50px
 }
 
 .about-me h2 {
     border-right: 5px solid var(--main);
     padding-right: 20px;
+    text-align: right;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
