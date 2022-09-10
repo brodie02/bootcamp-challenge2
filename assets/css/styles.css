@@ -9,7 +9,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
-h1, h2, p {
+h1,
+h2, 
+p {
     color: var(--main);
 }
 
@@ -29,7 +31,7 @@ p {
     font-size: 175%;
 }
 
-img {
+.image-section img {
     width: 15%;
     height: 15%;
     border-radius: 50%;
@@ -86,15 +88,19 @@ header li {
 .main-section {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-.about-me {
+.about-me,
+.work {
     display: flex;
-    padding: 25px 200px 25px 200px;
-    gap: 50px
+    gap: 50px;
+    width: 80%;
+    padding: 50px 0px 50px 0px;
 }
 
-.about-me h2 {
+.about-me h2,
+.work h2 {
     border-right: 5px solid var(--main);
     padding-right: 20px;
     text-align: right;
@@ -105,3 +111,30 @@ header li {
     flex-direction: column;
     gap: 25px;
 }
+
+.work {
+    padding-left: 45px;
+}
+
+.work-images {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.work img:first-child {
+    height: 50%;
+    width: 150%;
+    margin-top: 0px;
+}
+
+.work img {
+    height: 25%;
+    margin: 15px;
+    border: 5px solid var(--light);
+}
+
+.work img:not(:first-child) {
+    
+}
+
