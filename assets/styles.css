@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+h2 {
+    font-size: 250%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(44, 44, 44);
+    padding: 20px;
+    padding-left: 0px;
+}
+
+header h1 {
+    background-color: aqua;
+    padding: 20px;
+    color: rgb(44, 44, 44);
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    color: aqua;
+    gap: 30px;
+    align-self: center;
+    font-size: 175%;
+}
+
+header li {
+    border-bottom: 5px solid aqua;
+    padding: 5px 20px;
+}
