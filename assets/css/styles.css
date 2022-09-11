@@ -105,6 +105,10 @@ header li {
     padding-right: 20px;
     text-align: right;
 }
+/* reconfigure */
+.work h2 {
+    height: 1120px;
+}
 
 .about-text {
     display: flex;
@@ -114,27 +118,26 @@ header li {
 
 .work {
     padding-left: 45px;
+    margin-bottom: 0px;
 }
 
 .work-images {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
     align-content: flex-start;
 }
 
-.work img:first-child {
-    height: 50%;
-    width: 150%;
-    margin-top: 0px;
-}
-
 .work img {
-    height: 25%;
-    margin: 15px;
+    width: 48%;
+    height: 15%;
+    margin: 5px;
     border: 5px solid var(--light);
 }
 
-.work img:not(:first-child) {
-    
+.work img:first-child {
+    height: 40%;
+    width: 97.5%;
 }
 
