@@ -31,6 +31,14 @@ p {
     font-size: 175%;
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 .image-section img {
     width: 15%;
     height: 15%;
@@ -92,7 +100,8 @@ header li {
 }
 
 .about-me,
-.work {
+.work,
+.contact {
     display: flex;
     gap: 50px;
     width: 80%;
@@ -100,14 +109,11 @@ header li {
 }
 
 .about-me h2,
-.work h2 {
+.work h2,
+.contact h2 {
     border-right: 5px solid var(--main);
     padding-right: 20px;
     text-align: right;
-}
-/* reconfigure */
-.work h2 {
-    height: 1120px;
 }
 
 .about-text {
@@ -119,9 +125,10 @@ header li {
 .work {
     padding-left: 45px;
     margin-bottom: 0px;
+    
 }
 
-.work-images {
+.work-image-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -130,14 +137,29 @@ header li {
 }
 
 .work img {
-    width: 48%;
-    height: 15%;
     margin: 5px;
     border: 5px solid var(--light);
 }
 
-.work img:first-child {
-    height: 40%;
-    width: 97.5%;
+.work-image {
+    display: flex;
+    justify-content: center;
 }
+
+.large-image {
+    width: 97%;
+}
+
+.contact ul {
+    display: flex;
+    justify-content: center;
+}
+
+.contact ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
 
