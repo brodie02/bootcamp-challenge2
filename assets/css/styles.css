@@ -146,6 +146,26 @@ header li {
     justify-content: center;
 }
 
+.work-image {
+    position: relative;
+    text-align: center;
+    color: var(--main);
+}
+
+.bottom-left,
+.bottom-left-large {
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    font-size: 300%;
+    background-color: var(--light);
+    padding: 10px;
+}
+
+.bottom-left-large {
+    left: 19px;
+}
+
 .large-image {
     width: 97%;
 }
@@ -160,6 +180,6 @@ header li {
     justify-content: space-around;
 }
 
-
+ 
 
 
