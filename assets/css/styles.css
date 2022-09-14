@@ -145,6 +145,9 @@ header li {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    position: relative;
+    text-align: center;
+    color: var(--main);
 }
 
 #work img {
@@ -152,11 +155,11 @@ header li {
     border: 5px solid var(--light);
 }
 
-.work-image-container img:first-child {
-    width: 97%;
+#work img:first-child {
+    width: 100%;
 }
 
-.work-image-container img:not(first-child) {
+#work img:not(first-child) {
     width: 47.5%;
 }
 
@@ -182,6 +185,3 @@ header li {
     color: aqua;
     
 }
- 
-
-
