@@ -13,6 +13,6 @@ To access this webpage, follow the link below and view the webpage
 
 Below is the link to the webpage
 
-https://brodie02.github.io/bootcamp-challenge1/
+https://brodie02.github.io/bootcamp-challenge2/
       
 ---
