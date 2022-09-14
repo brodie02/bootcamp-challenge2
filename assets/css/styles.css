@@ -15,7 +15,8 @@ html {
 
 h1,
 h2, 
-p {
+p,
+li {
     color: var(--main);
 }
 
@@ -155,9 +156,12 @@ header li {
 .work-image {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+
 }
 
-.work-image {
+.work-image,
+.large-image {
     position: relative;
     text-align: center;
     color: var(--main);
@@ -181,16 +185,31 @@ header li {
     width: 97%;
 }
 
-.contact ul {
+#contact {
+    margin-left: -110px;
+}
+
+
+
+#contact ul {
     display: flex;
     justify-content: center;
+    align-items: center;
+    font-size: 175%;
+    gap: 30px;
+    padding-left: 190px;
 }
 
-.contact ul {
-    display: flex;
-    justify-content: space-around;
+
+#contact a,
+#contact li {
+    color: var(--main);
 }
 
+#contact a:hover {
+    color: aqua;
+    
+}
  
 
 
