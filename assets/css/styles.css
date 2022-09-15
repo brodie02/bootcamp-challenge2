@@ -155,6 +155,16 @@ header li {
     border: 5px solid var(--light);
 }
 
+.large-container {
+    width: 99%;
+    display: flex;
+    justify-content: center;
+}
+
+.large {
+    width: 100%;
+}
+
 #work img:first-child {
     width: 100%;
 }
